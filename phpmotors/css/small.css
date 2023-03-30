@@ -1,0 +1,456 @@
+/* colors
+light-grey #bababa
+grey  #8d8d8d
+light-blue #a6cbeb
+blue  #4c96d7
+black  #3a3a3a
+white  #ffffff 
+
+fonts
+font-family: 'Source Code Pro', monospace;
+*/
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  background-image: url('../images/site/small_check.jpg');
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  padding-left: 20px;
+}
+
+#wrapper {
+  border: #4c96d7 solid 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+#headerdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header img {
+  width: 180px;
+}
+
+#welcome {
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.myAccountbtn:hover {
+  color: #4c96d7;
+}
+
+.myAccountbtn {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  border: none;
+  background: none;
+  padding: 25px;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+}
+
+#bar {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+header button:hover {
+  color: #bababa;
+}
+
+nav {
+  background-color: #3a3a3a;
+  font-family: 'Source Code Pro', monospace;
+}
+
+nav ul {
+  padding-inline-start: 0px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  color: #ffffff;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2px;
+  margin-bottom: -2px;
+}
+
+nav ul li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+nav ul li:hover {
+  background-color: #ffffff;
+  color: #3a3a3a;
+}
+
+nav button {
+  font-family: 'Source Code Pro', monospace;
+  margin-left: 5px;
+  padding-bottom: 2px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+h1,
+h2, h3 {
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: -2px;
+  padding-left: 20px;
+}
+
+.userNotice {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.notice {
+  color: #f80a0a;
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  border-top: #3a3a3a solid 5px;
+  letter-spacing: -1px;
+}
+
+#box-img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#homefloat {
+  min-width: 150px;
+  margin: 0;
+  background-color: rgba(186, 186, 186, 0.01);
+  color: #4c96d7;
+  font-family: 'Source Code Pro', monospace;
+  z-index: 2;
+  text-align: left;
+}
+
+#box-button {
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+  background-color: #4c96d7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#deloreanimg {
+  max-width: 100%;
+}
+
+/* 
+top page ^^^^^
+
+bottom page 
+*/
+
+#section-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: 'Source Code Pro', monospace;
+  margin: 20px;
+  gap: 20px;
+}
+
+.imgdivblue {
+  border: #3a3a3a solid 2px;
+  background-color: #4c96d7;
+  width: 200px;
+  height: 85px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+#boxes>* {
+  text-align: center;
+  justify-content: center;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* forms */
+
+.form-box {
+  font-family: 'Source Code Pro', monospace;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.form-box input {
+  height: 30px;
+}
+
+.member-link {
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.submitBtn {
+  padding: 10px 40px 10px 40px;
+  background-color: #4c96d7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.form-box input:focus:invalid,
+.form-box textarea:focus:invalid {
+  background-color: rgb(255, 193, 193);
+}
+
+.form-box input:required:valid,
+.form-box textarea:required:valid {
+  background-color: rgb(192, 239, 192);
+}
+
+#adminList {
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+
+/* ineventory css rules */
+
+#inv-display {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#inv-display li {
+  margin-bottom: .5em;
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  list-style-type: none;
+  width: 200px;
+  box-shadow: 4px 9px 5px 3px rgba(0, 0, 0, 0.04);
+  padding-bottom: 10px;
+}
+
+#inv-display li img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.pic {
+  height: 140px;
+  display: flow-root;
+}
+
+#inv-display li span {
+  font-family: 'Source Code Pro', monospace;
+  display: table;
+  margin: 0 auto;
+}
+
+#inv-display li:hover {
+  box-shadow: 4px 9px 5px 3px rgba(0, 0, 0, 0.10);
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+  height: 5px;
+  background: black;
+}
+
+/* details page css rules */
+
+.vehicleDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.vehicleDetails li {
+  list-style-type: none;
+}
+
+#child-1 {
+  margin: 0 auto;
+}
+
+#child-1 img {
+  padding: 0px;
+  width: 100%;
+  max-width: 500px;
+}
+
+#child-2 {
+  padding: 0px 10px 0px 10px;
+}
+
+#child-2 ul,
+#child-2 li {
+  font-family: 'Source Code Pro', monospace;
+}
+
+#child-2 li:first-of-type {
+  font-size: 25px;
+  padding: 0px 0px 10px 0px;
+  font-weight: bold;
+}
+
+#child-2 ul {
+  padding: 0;
+  margin: 0;
+}
+
+#child-2 li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+#child-2 li:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.thumbs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.thumbs {
+  margin: 0px 5px 0px 5px;
+}
+
+.thumbs li img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+/* uploads page css rules */
+
+.radioSelect {
+  border: none;
+  font-family: 'Source Code Pro', monospace;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+select {
+  margin-left: 20px;
+}
+
+
+/* vehicle management page */
+
+#classificationList {
+  font-family: 'Source Code Pro', monospace;
+}
+
+#inventoryDisplay {
+  font-family: 'Source Code Pro', monospace;
+  margin: 40px;
+}
+
+#inventoryDisplay thead tr th {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#inventoryDisplay tbody td {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+#inventoryDisplay tbody td a {
+  text-decoration: none;
+}
+
+.form {
+  padding-left: 20px;
+  font-family: 'Source Code Pro', monospace;
+  border: #3a3a3a 5px solid;
+  margin: 5px;
+}
+
+.form textarea {
+  width: 95%;
+  height: 100px;
+}
+
+.underline {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#deleteReview textarea {
+  border: solid 2px black;
+  resize: none;
+  width: 212px;
+}
+
+.listSpace {
+  padding: 30px;
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#client-reviews {
+  font-family: 'Source Code Pro', monospace;
+}

@@ -1,0 +1,144 @@
+@media only screen and (min-width: 75em) {
+    #wrapper {
+        width: 80%;
+    }
+
+    #headerdiv {
+        display: flex;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #nav {
+        display: flex;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    #box-img {
+        display: flex;
+    }
+
+    #box-img :nth-child(3) {
+        height: 40px;
+        position: relative;
+        top: 120px;
+        left: -1038px;
+        z-index: 4;
+        font-size: 15px;
+        padding: 1px 40px 10px 40px;
+    }
+
+    #deloreanimg {
+        position: relative;
+        top: 70px;
+        left: -90px;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
+
+    #section-wrapper {
+        flex-direction: row;
+    }
+
+    #section-wrapper section {
+        flex: 1 1 0px;
+    }
+
+    /* For vehicle display in classification view */
+    #inv-display {
+        flex-flow: row wrap;
+    }
+
+    #inv-display h2 {
+        font-size: 1rem;
+    }
+
+    #inv-display li {
+        max-width: 200px;
+        flex: 1 0 auto;
+        text-align: center;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #inv-display div {
+        width: 100%;
+    }
+
+    /* For vehicle details page */
+    .vehicleDetails {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #child-1 img {
+        width: 450px;
+    }
+
+    #child-1 {
+        padding: 0px 10px 0px 0px;
+    }
+
+    #child-1 img {
+        justify-content: center;
+    }
+
+    .thumbs {
+        flex-direction: column;
+
+    }
+
+    .thumbs li img:hover {
+        transform: scale(2.5);
+    }
+
+    #detailReverse {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row-reverse;
+    }
+
+    #disapear {
+        display: none;
+    }
+
+    .vehicleDetails:nth-child(3) {
+        order: 2;
+        border: green solid 20px;
+
+    }
+
+    .vehicleDetails:nth-child(2) {
+        order: 3;
+        border: purple solid 20px;
+
+    }
+
+    .form textarea {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+}
